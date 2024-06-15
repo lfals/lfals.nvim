@@ -647,7 +647,7 @@ require('lazy').setup({
       if os.date('*t', os.time()).hour > 18 then
         vim.cmd.colorscheme 'tokyonight-night'
       else
-        vim.cmd.colorscheme 'tokyonight-day'
+        vim.cmd.colorscheme 'peach'
       end
 
       -- You can configure highlights by doing something like:
